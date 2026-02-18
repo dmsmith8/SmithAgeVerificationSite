@@ -8,7 +8,7 @@ mySubmit.onclick = function() {
     age = myText.value;
     age = Number(age);
     if (age < 5) {
-        myResult.textContent = "I don't speak feetus";
+        myResult.textContent = "I don't speak fetus";
     }
     else if (age == 69) {
         myResult.textContent = "Nice ;)";
@@ -28,4 +28,5 @@ mySubmit.onclick = function() {
     else {
         myResult.textContent = "Your age is a number moron";
     }
+
 };
